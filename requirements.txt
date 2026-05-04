@@ -1,3 +1,10 @@
 streamlit
 yfinance
 pandas
+plotly.graph_objects
+plotly.express
+datastas
+retornos
+riesgo
+benchmark
+fundamentals

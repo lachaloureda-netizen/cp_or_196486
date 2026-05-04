@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-from datastas import obtener_precios, obtener_returns
+from datastas import precios, retornos
 from retornos import calcular_retornos
 from riesgo import calcular_riego
 from benchmark import comparar_bench
@@ -37,8 +37,8 @@ with st.sidebar:
 # ── Ejecución ─────────────────────────────────────────
 if analizar:
     with st.spinner("⏳ Descargando datos..."):
-        df      = obtener_precios(ticker, benchmark, periodo)
-        returns = obtener_returns(df)
+        df      = precios(ticker, benchmark, periodo)
+        returns = retornos(df)
 
     tabs = st.tabs(["📈 Retornos", "⚠️ Riesgo", "📊 Benchmark", "🏢 Fundamentals"])
 

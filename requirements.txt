@@ -1,8 +1,7 @@
 streamlit
 yfinance
 pandas
-plotly.graph_objects
-plotly.express
+plotly
 datastas
 retornos
 riesgo

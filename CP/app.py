@@ -165,7 +165,7 @@ if analizar:
                 st.subheader("📊 Activo vs Benchmark")
                 fig5 = px.scatter(
                     x=returns["Retorno_benchmark"] * 100,
-                    y=returns["Retorno_activo"]    * 100,
+                    y=returns["Retornos_activo"]    * 100,
                     template="plotly_dark",
                     trendline="ols",
                     labels={"x": f"Retorno {benchmark} %",

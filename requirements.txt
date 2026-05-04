@@ -2,8 +2,4 @@ streamlit
 yfinance
 pandas
 plotly
-datastas
-retornos 
-riesgo 
-benchmark 
 scipy

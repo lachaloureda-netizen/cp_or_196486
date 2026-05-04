@@ -13,7 +13,7 @@ from fundamentals import obtenet_datos, calcular_dcf
 st.set_page_config(
     page_title="Analisis accion",
     page_icon="📈",
-    layout="ancho"
+    layout="wide"
 )
 
 st.title("📈 Stock Analyzer")

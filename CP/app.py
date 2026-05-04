@@ -110,7 +110,7 @@ if analizar:
 
             with col2:
                 st.subheader("📊 Distribución de retornos")
-                r     = returns["Retorno_activo"] * 100
+                r     = returns["Retornos_activo"] * 100
                 var95 = res_riesgo.get("Var diario 95%", None)
 
                 fig3 = px.histogram(r, nbins=50, template="plotly_dark",

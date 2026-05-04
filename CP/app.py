@@ -16,7 +16,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📈 Stock Analyzer")
+st.title("📈 Analisis accion")
 st.markdown("Análisis cuantitativo de acciones vs benchmark")
 
 # ── Sidebar — inputs ──────────────────────────────────

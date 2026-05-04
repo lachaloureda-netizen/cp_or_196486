@@ -6,3 +6,4 @@ datastas
 retornos 
 riesgo 
 benchmark 
+scipcy

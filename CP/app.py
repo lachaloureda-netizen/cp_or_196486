@@ -75,7 +75,7 @@ if analizar:
             # Retornos diarios
             st.subheader("📉 Retornos diarios")
             fig2 = go.Figure()
-            fig2.add_trace(go.Bar(x=returns.index, y=returns["Retorno_activo"] * 100,
+            fig2.add_trace(go.Bar(x=returns.index, y=returns["Retornos_activo"] * 100,
                                   name=ticker, marker_color="#00C9FF"))
             fig2.update_layout(template="plotly_dark", height=350,
                                yaxis_title="Retorno %", xaxis_title="Fecha")
